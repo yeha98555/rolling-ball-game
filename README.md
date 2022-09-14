@@ -1,4 +1,4 @@
-# BallRun
+# Rolling Ball 3D Game
 
 Unity 2021.2.6f1 on Ubuntu 20.04 LTS
 
