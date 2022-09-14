@@ -1,0 +1,448 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1639644000606716, "dur":128, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639644000606849, "dur":7, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1639644000606862, "dur":7, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1639644000606869, "dur":123, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1639644000607001, "dur":174, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639644000607175, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639644000631675, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639644000631678, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639644000631697, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639644000631697, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639644000631703, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639644000631703, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639644000631713, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639644000631714, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639644000631717, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639644000631725, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639644000631727, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639644000631731, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639644000631733, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639644000631735, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639644000631737, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639644000631740, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639644000631742, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639644000631748, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639644000631751, "dur":270, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1639644000606992, "dur":215, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000607207, "dur":384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000607592, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000607689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000607709, "dur":106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000607817, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1639644000607845, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000607938, "dur":51, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1639644000607991, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1639644000607996, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000608001, "dur":54, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1639644000608057, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1639644000608061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000608067, "dur":33, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1639644000608103, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1639644000608111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000608115, "dur":64, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1639644000608183, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":1, "ts":1639644000608188, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000608212, "dur":289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":1, "ts":1639644000608503, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000608574, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000608577, "dur":167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000608746, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000608763, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000608766, "dur":49, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000608816, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000608829, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000608832, "dur":37, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000608871, "dur":469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000609341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000609344, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000610480, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000610496, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000610499, "dur":45, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000610546, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000610562, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000610564, "dur":41, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000610606, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000610621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000610624, "dur":42, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000610667, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000610789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000610792, "dur":302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000611095, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000611128, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000611131, "dur":81, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000611214, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000611462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000611466, "dur":607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000612075, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000612089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000612092, "dur":431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000612525, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000612583, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000612586, "dur":313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000612901, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000612925, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000612929, "dur":55, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000612986, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613050, "dur":154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613206, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613220, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613223, "dur":43, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613268, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613282, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613285, "dur":46, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613333, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613335, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613338, "dur":34, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613372, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613393, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613396, "dur":55, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613453, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613472, "dur":43, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613517, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613542, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613545, "dur":49, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613596, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613638, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613641, "dur":103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613746, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613760, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613766, "dur":38, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000613805, "dur":403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000614210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639644000614214, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639644000615334, "dur":16297, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639644000606928, "dur":253, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639644000607183, "dur":381, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639644000607568, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1639644000607570, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639644000607594, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639644000607632, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639644000607709, "dur":109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639644000607820, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1639644000607834, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639644000607984, "dur":42, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1639644000608030, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1639644000608044, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639644000608072, "dur":77, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1639644000608151, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1639644000608156, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639644000608160, "dur":315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1639644000608477, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639644000608503, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639644000608507, "dur":37, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639644000608546, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639644000608561, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639644000608564, "dur":46, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639644000608612, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639644000608724, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639644000608727, "dur":264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639644000608993, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639644000609009, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639644000609012, "dur":56, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639644000609069, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639644000609097, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639644000609100, "dur":71, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639644000609173, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639644000609186, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639644000609189, "dur":37, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639644000609227, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639644000609694, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639644000609697, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639644000610818, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639644000610840, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639644000610843, "dur":54, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639644000610899, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639644000610913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639644000610916, "dur":50, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639644000610968, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639644000610988, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639644000610991, "dur":53, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639644000611046, "dur":1548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639644000612597, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639644000612600, "dur":3709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639644000616311, "dur":15309, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639644000606935, "dur":250, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639644000607185, "dur":387, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639644000607577, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639644000607771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639644000607777, "dur":446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639644000608225, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1639644000608237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639644000608243, "dur":4780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1639644000613028, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639644000613048, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639644000613051, "dur":58, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639644000613111, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639644000613138, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639644000613141, "dur":75, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639644000613218, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639644000613231, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639644000613233, "dur":49, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639644000613283, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639644000613334, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639644000613338, "dur":131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639644000613471, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639644000613568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639644000613572, "dur":269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639644000613842, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1639644000613846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639644000613850, "dur":79, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1639644000613930, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639644000613979, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639644000613983, "dur":130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639644000614115, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639644000614129, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639644000614132, "dur":43, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639644000614177, "dur":1141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639644000615320, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639644000615323, "dur":3096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639644000618422, "dur":13262, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000606950, "dur":240, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000607191, "dur":394, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000607590, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000607808, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000607818, "dur":78, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000607898, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1639644000607916, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000607968, "dur":51, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1639644000608021, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1639644000608026, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000608072, "dur":35, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1639644000608109, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000608131, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000608135, "dur":54, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000608191, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":4, "ts":1639644000608196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000608212, "dur":1982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":4, "ts":1639644000610198, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000610217, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000610221, "dur":47, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000610269, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000610320, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000610328, "dur":117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000610446, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000610785, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000610788, "dur":831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000611621, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000611694, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000611697, "dur":179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000611878, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1639644000611892, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000611894, "dur":38, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1639644000611934, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1639644000611944, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000611946, "dur":33, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1639644000611981, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1639644000611984, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000612040, "dur":194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1639644000612236, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000612270, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000612281, "dur":278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000612561, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000612581, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000612584, "dur":77, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000612663, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000612682, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000612685, "dur":209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000612897, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000612939, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000612942, "dur":139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000613084, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000613107, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000613111, "dur":68, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000613181, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000613212, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000613215, "dur":77, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000613294, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000613312, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000613314, "dur":40, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000613356, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000613436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000613440, "dur":196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000613638, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000613735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000613739, "dur":248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639644000613989, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1639644000613993, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000613996, "dur":729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1639644000614728, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1639644000614757, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000614761, "dur":39, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1639644000614801, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1639644000614809, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000614811, "dur":73, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1639644000614886, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1639644000614889, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000614891, "dur":39, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1639644000614931, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1639644000614935, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639644000614937, "dur":358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1639644000615297, "dur":16330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639644000606961, "dur":235, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639644000607196, "dur":383, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639644000607583, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639644000607774, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639644000607777, "dur":53, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639644000607832, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1639644000607842, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639644000607976, "dur":41, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1639644000608020, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1639644000608025, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639644000608030, "dur":86, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1639644000608118, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1639644000608123, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639644000608126, "dur":100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1639644000608238, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun.x86_64" }}
+,{ "pid":12345, "tid":5, "ts":1639644000608243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639644000608246, "dur":47, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun.x86_64" }}
+,{ "pid":12345, "tid":5, "ts":1639644000608295, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639644000608317, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639644000608320, "dur":53, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639644000608374, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639644000608401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639644000608404, "dur":65, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639644000608470, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1639644000608475, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639644000608491, "dur":93, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1639644000608587, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639644000608610, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639644000608613, "dur":65, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639644000608680, "dur":769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639644000609451, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639644000609454, "dur":1890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639644000611346, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639644000611401, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639644000611404, "dur":130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639644000611535, "dur":908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639644000612445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639644000612450, "dur":2540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639644000614992, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1639644000614996, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639644000615000, "dur":781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1639644000615783, "dur":15852, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639644000606971, "dur":229, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639644000607200, "dur":373, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639644000607577, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1639644000607800, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639644000607814, "dur":74, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1639644000607890, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1639644000607896, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639644000607990, "dur":62, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1639644000608055, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1639644000608098, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639644000608102, "dur":119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1639644000608223, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":6, "ts":1639644000608227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639644000608236, "dur":35, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":6, "ts":1639644000608273, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/UnityPlayer.so" }}
+,{ "pid":12345, "tid":6, "ts":1639644000608278, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639644000608280, "dur":23315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/UnityPlayer.so" }}
+,{ "pid":12345, "tid":6, "ts":1639644000631601, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1639644000631603, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000606983, "dur":221, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000607204, "dur":385, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000607590, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000607688, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000607709, "dur":99, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000607829, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1639644000607835, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000608163, "dur":35, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1639644000608201, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":7, "ts":1639644000608205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000608213, "dur":3342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":7, "ts":1639644000611560, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000611651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000611655, "dur":215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000611871, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000611887, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000611890, "dur":44, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000611936, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1639644000611940, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000611942, "dur":102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1639644000612046, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000612079, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000612082, "dur":86, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000612170, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000612190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000612193, "dur":255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000612451, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000612466, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000612468, "dur":160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000612630, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000612653, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000612656, "dur":53, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000612710, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000612765, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000612768, "dur":149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000612918, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613070, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613083, "dur":355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613440, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613481, "dur":98, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613580, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613599, "dur":43, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613643, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613657, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613660, "dur":39, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613701, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613714, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613717, "dur":36, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613755, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613770, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613773, "dur":54, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613828, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613848, "dur":47, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613896, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613911, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613914, "dur":46, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613962, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613977, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000613980, "dur":45, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000614027, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000614041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000614044, "dur":46, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000614092, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000614139, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000614141, "dur":124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000614267, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000614332, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000614335, "dur":147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000614483, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1639644000614487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000614491, "dur":587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1639644000615081, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000615096, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639644000615099, "dur":42, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639644000615142, "dur":16555, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639644000606993, "dur":217, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639644000607210, "dur":358, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639644000607571, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1639644000607627, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639644000607708, "dur":94, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1639644000607817, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":8, "ts":1639644000607823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639644000607877, "dur":54, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":8, "ts":1639644000607932, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1639644000607936, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639644000607966, "dur":77, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1639644000608047, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1639644000608051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639644000608072, "dur":57, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1639644000608132, "dur":4087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1639644000612235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639644000612240, "dur":40, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1639644000612283, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1639644000612296, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639644000612299, "dur":238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1639644000612538, "dur":2644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1639644000615184, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639644000615187, "dur":246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/yic/unity-project/t/BallRun_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1639644000615435, "dur":16268, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639644000632220, "dur":178, "ph":"X", "name": "ProfilerWriteOutput" }
+,
